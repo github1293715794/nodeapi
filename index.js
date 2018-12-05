@@ -86,7 +86,7 @@ app.get('/api/getlistdetl2/:id', (req, res) => {//http://localhost:3000/api/getl
 });
  
 //添加
-app.post('/api/addcard', (req, res) => {
+app.post('/api/addcard', (req, res) => {// 发送json格式的数据
 	const user = req.body
 	console.log(req.body)
 	const sqlStr = 'insert into emp set ?'
