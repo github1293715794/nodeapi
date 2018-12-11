@@ -13,7 +13,12 @@ class TodoListRepository {
 
   // 查：实现查看所有todo的方法
   listAllTodos () {
-    return this.todoList;
+    return {
+			err_code: 200,
+			message: results,
+			affextedRows: this.todoList
+		}
+    // return this.todoList;
   }
   // 查：实现通过id查看具体todo的方法
   // 增：实现创建新todo记录的方法
