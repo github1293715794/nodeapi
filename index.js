@@ -121,6 +121,9 @@ app.get('/api/:id', (req,res) => {
 		res.send("请检查格式");
 	}
 })
+
+// 网页只能进行get post请求
+// express适合进行RESTful路由设计，delete请求一般用于软件，app
  
 app.listen(3000, () => {
 	console.log('正在监听端口3000,http://localhost:3000');
