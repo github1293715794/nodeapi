@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 // 推荐引入的包中都放置一个package.json文件，node将自动读取里面的配置 里面的main即是入口文件
+// 利用package.json用来管理依赖：-S 生产用
+// npmjs.com 社区
 // 设置跨域
 app.all('*',function(req,res,next){
 	res.header('Access-Control-Allow-Origin','*');
