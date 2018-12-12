@@ -110,6 +110,17 @@ app.post('/api/addcard', (req, res) => {// 发送json格式的数据
 	})
  
 })
+
+// 正则的应用
+app.get('/api/:id', (req,res) => {
+	var id = req.params.id;
+	var reg = /^[\d]{6}$/;
+	if(reg.test(id)){
+		res.send(id);
+	}else{
+		res.send("请检查格式");
+	}
+})
  
 app.listen(3000, () => {
 	console.log('正在监听端口3000,http://localhost:3000');
