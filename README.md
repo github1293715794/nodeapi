@@ -13,3 +13,4 @@ npm install --save mysql				Node.js--mysql数据库模块
 ## 运行项目  
 
 下载后运行  node index.js
+add 会产生所引值
