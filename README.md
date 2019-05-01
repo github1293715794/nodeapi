@@ -12,7 +12,8 @@ npm install --save mysql				Node.js--mysql数据库模块
 
 ## 运行项目  
 
-下载后运行  node index.js
-add 之前可以使用git reset --hard HEAD
-add 之后也可以使用git reset --hard HEAD
-commit 之后只能使用git reset --hard 索引值
+下载后运行  node index.js 
+add 之前可以使用git reset --hard HEAD 
+add 之后也可以使用git reset --hard HEAD 
+commit 之后只能使用git reset --hard 索引值 
+换行 
