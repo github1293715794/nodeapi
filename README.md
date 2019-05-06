@@ -16,4 +16,4 @@ npm install --save mysql				Node.js--mysql数据库模块
 add 之前可以使用git reset --hard HEAD  
 add 之后也可以使用git reset --hard HEAD  
 commit 之后只能使用git reset --hard 索引值  
-两个空格换行 iss2只commit 不push
+两个空格换行 iss2只commit 不push 我又来了
